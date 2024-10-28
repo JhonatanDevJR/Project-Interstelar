@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-header img{
+#banner img{
     height: 226px;
 }
-#content{
+#titulo{
     font-size: 1.5em;
 }

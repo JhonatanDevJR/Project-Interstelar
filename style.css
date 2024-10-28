@@ -26,10 +26,11 @@
     left: 0;
     position: relative;
     height: 150px;
+    opacity: .5;
 }
-#content{
+#titulo{
     position: absolute;
-    z-index: auto;
+    z-index: 1;
     background-color: rgb(0, 0, 0);
     font-size: .7em;
 }
@@ -37,10 +38,49 @@ body{
     background-color: black;
 }
 video{
-    display: block;
     width: 100%;
     opacity: .3;
     height: 100%;
-    transition: 5s;
-    position: relative;
+    position: absolute;
+    object-fit: cover;
+    display: flex;
+}
+#text p#earth{
+    z-index: 1;
+    top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    text-indent: 1.5em;
+    width: 400px;
+    line-height: 2em;
+    left: 10px;
+    font-weight: bolder;
+}
+#text p#soon{
+    z-index: 1;
+    top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    text-indent: 1.5em;
+    line-height: 2em;
+    font-weight: bolder;
+    width: 400px;
+    float: right;
+    display: flex;
+    flex: 1;
+}
+#text p#saturn{
+    z-index: 1;
+    top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    text-indent: 1.5em;
+    width: 400px;
+    line-height: 2em;
+    left: 10px;
+    font-weight: bolder;
+    flex: 1;
 }
