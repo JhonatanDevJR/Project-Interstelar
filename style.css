@@ -10,10 +10,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 #banner{
     width: 100%;
-    
     display: flex;
     overflow: hidden;
     justify-content: center;
@@ -35,7 +35,6 @@
     position: relative;
     height: 150px;
     opacity: .5;
-    
 }
 #titulo{
     position: absolute;
@@ -66,28 +65,42 @@ video {
     top: 50px;
     padding-left: 10px;
     padding-top: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-indent: 1.5em;
     width: 350px;
     line-height: 2em;
-    left: 10px;
     font-weight: bolder;
-}
-#text p#soon{
-    z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    float: right;
+    display: flex;
     
+}
+#text1 p#moon{
+    z-index: 1;
+    top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    text-indent: 1.5em;
+    width: 350px;
+    line-height: 2em;
+    display: flex;
+    font-weight: bolder;
+    
+}
+#text2 p#saturn{
+    z-index: 1;
+    top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    text-indent: 1.5em;
+    width: 350px;
+    line-height: 2em;
+    left: 10px;
     font-weight: bolder;
     flex: 1;
+    
 }
-#text p#saturn{
+#text3 p#jupiter{
     z-index: 1;
     top: 50px;
     padding-left: 10px;
@@ -100,7 +113,7 @@ video {
     font-weight: bolder;
     flex: 1;
 }
-#text p#jupiter{
+#text4 p#uranus{
     z-index: 1;
     top: 50px;
     padding-left: 10px;
@@ -113,7 +126,7 @@ video {
     font-weight: bolder;
     flex: 1;
 }
-#text p#uranus{
+#text5 p#neptune{
     z-index: 1;
     top: 50px;
     padding-left: 10px;
@@ -126,7 +139,7 @@ video {
     font-weight: bolder;
     flex: 1;
 }
-#text p#neptune{
+#text6 p#venus{
     z-index: 1;
     top: 50px;
     padding-left: 10px;
@@ -139,4 +152,36 @@ video {
     font-weight: bolder;
     flex: 1;
 }
+#text7 p#mercury{
+    z-index: 1;
+    top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    text-indent: 1.5em;
+    width: 350px;
+    line-height: 2em;
+    left: 10px;
+    font-weight: bolder;
+    flex: 1;
+}
+img{
+    display: flex;
+    width:200px; 
+    height:200px;
+    position: relative;
+    left: 200px;
+}
+div#text{
+    display: flex;
+}
+
+div#text1 >img{
+    display: flex;
+    width:200px; 
+    height:200px;
+    position: relative;
+    left: 200px;
+}
+
 
