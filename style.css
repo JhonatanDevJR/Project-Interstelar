@@ -179,9 +179,12 @@ video {
 img{
     width:200px; 
     height:280px;
+    float: right;
     position: relative;
-    left: 500px;
+    display: flex;
+    flex-flow: row wrap;
 }
+
 div#text1 img{
     margin-right: 500px;
     margin-top: 10px;
@@ -189,6 +192,8 @@ div#text1 img{
 }
 div#text, div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7{
     display: flex;
+    flex-flow:  wrap-reverse;
+    
 }
 
 
