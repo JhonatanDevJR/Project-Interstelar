@@ -6,7 +6,7 @@
 #titulo{
     font-size: 1.5em;
 }
-#text p#earth, #text1 p#soon, #text2 p#saturn, #text3 p#jupiter, #text4 p#uranus, #text5 p#neptune, #text6 p#venus, #text7 p#mercury{
+#text p#earth, #text1 p#moon, #text2 p#saturn, #text3 p#jupiter, #text4 p#uranus, #text5 p#neptune, #text6 p#venus, #text7 p#mercury{
     width: 500px;
     
 }

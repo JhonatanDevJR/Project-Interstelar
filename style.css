@@ -48,6 +48,9 @@
 }
 body{
     background-color: black;
+    background-image: url(imagens/elementos-do-sistema-solar-desta-imagem-fornecidos-pela-nasa_103740-1977.avif);
+    background-attachment: fixed;
+    background-size: contain;
 }
 p{
     font-family: sans-serif;
@@ -97,7 +100,7 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-    flex: 1;
+    
     
 }
 #text3 p#jupiter{
@@ -111,7 +114,7 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-    flex: 1;
+    
 }
 #text4 p#uranus{
     z-index: 1;
@@ -124,7 +127,7 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-    flex: 1;
+    
 }
 #text5 p#neptune{
     z-index: 1;
@@ -137,7 +140,7 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-    flex: 1;
+   
 }
 #text6 p#venus{
     z-index: 1;
@@ -150,7 +153,7 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-    flex: 1;
+    
 }
 #text7 p#mercury{
     z-index: 1;
@@ -163,25 +166,21 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-    flex: 1;
+   
 }
 img{
-    display: flex;
     width:200px; 
     height:200px;
     position: relative;
-    left: 200px;
+    left: 500px;
 }
-div#text{
+div#text1 img{
+    
+}
+div#text, div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7{
     display: flex;
 }
 
-div#text1 >img{
-    display: flex;
-    width:200px; 
-    height:200px;
-    position: relative;
-    left: 200px;
-}
+
 
 
