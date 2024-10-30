@@ -10,5 +10,7 @@
     width: 500px;
 }
 img{
-    left: 0px;
+    left: 500px;
+    display: flex;
+    flex-flow: row wrap;
 }
