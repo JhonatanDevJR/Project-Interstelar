@@ -51,6 +51,7 @@ body{
     background-image: url(imagens/elementos-do-sistema-solar-desta-imagem-fornecidos-pela-nasa_103740-1977.avif);
     background-attachment: fixed;
     background-size: contain;
+    background-position: center center;
 }
 p{
     font-family: sans-serif;
