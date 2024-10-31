@@ -64,14 +64,36 @@ p{
     
 }
 video {
-    
     width: 300px;
     height: 300px;
     display: flex;
 }
-#text p#earth{
+#text1 p#mercury{
     z-index: 1;
     top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    text-indent: 1.5em;
+    width: 350px;
+    line-height: 2em;
+    left: 10px;
+    font-weight: bolder;
+}
+#text2 p#venus{
+    z-index: 1;
+    top: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    text-indent: 1.5em;
+    width: 350px;
+    line-height: 2em;
+    display: flex;
+    font-weight: bolder;
+}
+#text3 p#earth{
+    z-index: 1;
     padding-left: 10px;
     padding-top: 5px;
     color: rgb(255, 255, 255);
@@ -82,36 +104,8 @@ video {
     display: flex;
     
 }
-#text1 p#moon{
+#text4 p#marte{
     z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: rgb(255, 255, 255);
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    display: flex;
-    font-weight: bolder;
-    
-}
-#text2 p#saturn{
-    z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    left: 10px;
-    font-weight: bolder;
-    
-    
-}
-#text3 p#jupiter{
-    z-index: 1;
-    top: 50px;
     padding-left: 10px;
     padding-top: 5px;
     color: white;
@@ -122,7 +116,7 @@ video {
     font-weight: bolder;
     
 }
-#text4 p#uranus{
+#text5 p#jupiter{
     z-index: 1;
     top: 50px;
     padding-left: 10px;
@@ -133,9 +127,9 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-    
 }
-#text5 p#neptune{
+
+#text6 p#saturn{
     z-index: 1;
     top: 50px;
     padding-left: 10px;
@@ -146,9 +140,9 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-   
 }
-#text6 p#venus{
+
+#text7 p#uranus{
     z-index: 1;
     top: 50px;
     padding-left: 10px;
@@ -159,9 +153,8 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-    
 }
-#text7 p#mercury{
+#text8 p#neptune{
     z-index: 1;
     top: 50px;
     padding-left: 10px;
@@ -181,17 +174,18 @@ img{
     position:  relative;
     display: flex;
     flex-flow: row wrap;
+    margin-top: 20px;
 }
-
-div#text1 img{
-   left: 0px;
-    
+div#text2 img{
+   left: 0px; 
 }
-div#text, div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7{
-    
+div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     display: flex;
+}
+h2{
+    color: white;
     
-    
+
 }
 
 
