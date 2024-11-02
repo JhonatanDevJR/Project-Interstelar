@@ -52,7 +52,7 @@ body{
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
-    opacity: ;
+    
 }
 p{
     font-family: sans-serif;
@@ -175,17 +175,21 @@ img{
     display: flex;
     flex-flow: row wrap;
     margin-top: 20px;
+    cursor: pointer;
 }
 div#text2 img{
    left: 0px; 
 }
 div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     display: flex;
+    color: white;
+    
+}
+div#text1{
+    
 }
 h2{
     color: white;
-    
-
 }
 
 
