@@ -27,7 +27,7 @@
     background-attachment: fixed;
     background-size: cover;
 }
-#banner img{
+#banner video{
     width: 100vw;
     object-fit: cover;
     top: 0;
@@ -171,7 +171,7 @@ video {
 }
 img{
     width:200px; 
-    height:250px;
+    
     float: right;
     position:  relative;
     display: flex;
@@ -180,9 +180,7 @@ img{
     cursor: pointer;
     
 }
-div#text2 img{
-   left: 0px; 
-}
+
 div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     display: flex;
     color: white;
