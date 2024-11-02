@@ -52,15 +52,18 @@ body{
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
-    
 }
 p{
     font-family: sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(145, 54, 54);
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgba(241, 241, 241, 0.733);
-    margin: 10px;
+    margin:  10px;
     text-transform: uppercase;
+    text-indent: 1.5em;
+    line-height: 2em;
+    padding-left: 10px;
+    width: 500px;
     
 }
 video {
@@ -165,7 +168,6 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
-   
 }
 img{
     width:200px; 
@@ -176,6 +178,7 @@ img{
     flex-flow: row wrap;
     margin-top: 20px;
     cursor: pointer;
+    
 }
 div#text2 img{
    left: 0px; 
@@ -185,8 +188,8 @@ div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     color: white;
     
 }
-div#text1{
-    
+div#conteudo img{
+    left: 50px;
 }
 h2{
     color: white;
