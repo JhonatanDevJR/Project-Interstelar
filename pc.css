@@ -7,12 +7,13 @@
     font-size: 1.5em;
 }
 #text1 p#mercury, #text2 p#venus, #text3 p#earth,#text4 p#marte, #text5 p#jupiter, #text6 p#saturn, #text7 p#uranus, #text8 p#neptune{
-    width: 700px;
+    
     text-align: center;
     display: block;
 }
 img{
     left: 500px;
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
 }
