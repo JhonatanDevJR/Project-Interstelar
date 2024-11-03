@@ -172,7 +172,7 @@ video {
 img{
     width:200px; 
     
-    float: right;
+    float: left;
     position:  relative;
     display: flex;
     flex-flow: row wrap;
@@ -184,13 +184,21 @@ img{
 div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     display: flex;
     color: white;
-    
 }
 div#conteudo img{
-    left: 50px;
+   
 }
 h2{
     color: white;
+}
+div#teste{
+    background-color: white;
+}
+div#text1 {
+    background-image: ;
+    background-attachment: ;
+    background-size: ;
+    height: 500px;
 }
 
 

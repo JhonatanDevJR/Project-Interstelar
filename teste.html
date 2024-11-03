@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+  
+</style>
+
+<body>
+
+  
+
+  <div id="res" onmouseenter="mostrarImagem()" onmouseout="someImagem()">
+    Passe o mouse sobre mim!
+    
+  </div>
+  <img src="imagens/mercurio.png" alt="Minha imagem" id="imagem">
+
+  <script>
+    var res= document.getElementById('res')
+
+    function mostrarImagem() {
+      document.getElementById("imagem").style.display = "none"; // Mostra a imagem
+      res.innerHTML='comi o cu de quem tá lendo HAHAHAHAHAH'
+    }
+    function someImagem(){
+        document.getElementById("imagem").style.display= "block";
+        
+        res.innerHTML='Passe o mouse sobre mim!'
+    }
+  </script>
+
+</body>
+</html>
