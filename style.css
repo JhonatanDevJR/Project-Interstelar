@@ -185,7 +185,7 @@ img{
 div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     display: flex;
     color: white;
-    height: 350px;
+    height: 500px;
     margin: auto;
 }
 
