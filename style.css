@@ -181,11 +181,11 @@ img{
     cursor: pointer;
     text-align: center;
     position: center;
-    left: 80px;
+    left: 40px;
 }
 
 div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
-    display: flex;
+    display: block;
     color: white;
     height: 300px;
     margin: auto;

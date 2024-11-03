@@ -19,6 +19,7 @@ img{
 }
 div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     height: 300px;
+    display: flex;
 }
 h2{
     color: white;
