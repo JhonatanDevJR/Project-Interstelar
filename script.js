@@ -6,7 +6,8 @@ function entrou1(){
     document.getElementById("foto1").style.display='none';
 }
 function saiu1(){
-    text1.innerHTML='clique na imagem.'
+    text1.innerHTML='<h2>Passe a seta na imagem.</h2>'
+    text1.innerHTML+=''
     document.getElementById("foto1").style.display ='block'; 
 } 
 
@@ -15,7 +16,7 @@ function entrou2(){
     document.getElementById("foto2").style.display='none';
 }
 function saiu2(){
-    text2.innerHTML='clique na imagem.'
+    text2.innerHTML='<h2>Passe a seta na imagem.</h2>'
     document.getElementById("foto2").style.display ='block'; 
 } 
 
@@ -24,7 +25,7 @@ function entrou3(){
     document.getElementById("foto3").style.display='none';
 }
 function saiu3(){
-    text3.innerHTML='clique na imagem.'
+    text3.innerHTML='<h2>Passe a seta na imagem.</h2>'
     document.getElementById("foto3").style.display ='block'; 
 } 
 
@@ -33,7 +34,7 @@ function entrou4(){
     document.getElementById("foto4").style.display='none';
 }
 function saiu4(){
-    text4.innerHTML='clique na imagem.'
+    text4.innerHTML='<h2>Passe a seta na imagem.</h2>'
     document.getElementById("foto4").style.display ='block'; 
 } 
 
@@ -42,7 +43,7 @@ function entrou5(){
     document.getElementById("foto5").style.display='none';
 }
 function saiu5(){
-    text5.innerHTML='clique na imagem.'
+    text5.innerHTML='<h2>Passe a seta na imagem.</h2>'
     document.getElementById("foto5").style.display ='block'; 
 } 
 
@@ -51,7 +52,7 @@ function entrou6(){
     document.getElementById("foto6").style.display='none';
 }
 function saiu6(){
-    text6.innerHTML='clique na imagem.'
+    text6.innerHTML='<h2>Passe a seta na imagem.</h2>'
     document.getElementById("foto6").style.display ='block'; 
 } 
 
@@ -60,7 +61,7 @@ function entrou7(){
     document.getElementById("foto7").style.display='none';
 }
 function saiu7(){
-    text7.innerHTML='clique na imagem.'
+    text7.innerHTML='<h2>Passe a seta na imagem.</h2>'
     document.getElementById("foto7").style.display ='block'; 
 } 
 
@@ -69,7 +70,7 @@ function entrou8(){
     document.getElementById("foto8").style.display='none';
 }
 function saiu8(){
-    text8.innerHTML='clique na imagem.'
+    text8.innerHTML='<h2>Passe a seta na imagem.</h2>'
     document.getElementById("foto8").style.display ='block'; 
 } 
 

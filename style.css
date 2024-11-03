@@ -48,7 +48,7 @@
 }
 body{
     background-color: black;
-    background-image: url(imagens/elementos-do-sistema-solar-desta-imagem-fornecidos-pela-nasa_103740-1977.avif);
+    background-image: ;
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
@@ -63,7 +63,8 @@ p{
     text-indent: 1.5em;
     line-height: 2em;
     padding-left: 10px;
-    width: 500px;
+    width: 700px;
+   
     
 }
 video {
@@ -82,6 +83,7 @@ video {
     line-height: 2em;
     left: 10px;
     font-weight: bolder;
+    margin: auto;
 }
 #text2 p#venus{
     z-index: 1;
@@ -185,7 +187,7 @@ img{
 div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     display: flex;
     color: white;
-    height: 500px;
+    height: 300px;
     margin: auto;
 }
 
@@ -193,6 +195,10 @@ h2{
     color: white;
     text-align: center;
     margin-left: -100px;
+    display: none;
+}
+h3{
+    color: white;
 }
 
 
