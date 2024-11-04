@@ -30,3 +30,13 @@ h2{
 h3{
     display: none;
 }
+span#burguer{
+    display: none;
+}
+menu{
+    display: block;
+    background-color: rgb(58, 58, 58);
+}
+menu ul li{
+    display: inline-block;
+}
