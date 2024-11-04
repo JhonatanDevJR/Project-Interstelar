@@ -20,7 +20,6 @@
     align-items: center;
     color: rgb(255, 255, 255);
     background-color: rgb(34, 34, 34);
-    padding-bottom: 10px;
     font-family: var(--fonte2);
     font-variant: small-caps;
     font-size: 1.5em;
@@ -33,7 +32,7 @@
     top: 0;
     left: 0;
     position: relative;
-    height: 150px;
+    height: 200px;
     opacity: .5;
 }
 #titulo{
@@ -45,6 +44,23 @@
     border-radius: 10px;
     text-shadow: 3px 3px 3px rgb(60, 40, 173);
     box-shadow: 2px 1px 3px rgba(255, 255, 255, 0.322);
+}
+span#burguer{
+    display: block;
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    width: 100%;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+menu{
+    display: none;
+}
+menu ul{
+    color: white;
+    list-style-type: none;
+    text-align: center;
 }
 body{
     background-color: black;
@@ -185,10 +201,10 @@ img{
 }
 
 div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
-    display: block;
+    display: flex;
     color: white;
-    height: 300px;
-    margin: auto;
+    height: 500px;
+    
 }
 
 h2{

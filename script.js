@@ -7,7 +7,7 @@ function entrou1(){
 }
 function saiu1(){
     text1.innerHTML='<h2>Passe a seta na imagem.</h2>'
-    text1.innerHTML+=''
+    
     document.getElementById("foto1").style.display ='block'; 
 } 
 
@@ -73,4 +73,11 @@ function saiu8(){
     text8.innerHTML='<h2>Passe a seta na imagem.</h2>'
     document.getElementById("foto8").style.display ='block'; 
 } 
+function menu() {
+    if (itens.style.display== 'block'){
+        itens.style.display = 'none'
+    } else {
+        itens.style.display= 'block'
+    }
+}
 
