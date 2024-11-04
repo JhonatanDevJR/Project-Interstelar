@@ -53,6 +53,7 @@ span#burguer{
     padding: 5px;
     color: white;
     cursor: pointer;
+    transition: .5s;
 }
 menu{
     display: none;
@@ -61,6 +62,26 @@ menu ul{
     color: white;
     list-style-type: none;
     text-align: center;
+}
+menu li{
+    background-color: rgb(58, 58, 58);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+menu li:hover{
+    background-color: gray;
+    transition: .5s;
+    margin-left: 20px;
+}
+a{
+    color: white;
+    text-transform: uppercase;
+}
+a:hover{
+    color: yellow;
+    text-decoration: none;
 }
 body{
     background-color: black;
@@ -80,8 +101,6 @@ p{
     line-height: 2em;
     padding-left: 10px;
     width: 700px;
-   
-    
 }
 video {
     width: 300px;
@@ -204,7 +223,6 @@ div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
     display: flex;
     color: white;
     height: 500px;
-    
 }
 
 h2{
@@ -215,6 +233,7 @@ h2{
 }
 h3{
     color: white;
+    margin-top: 10px;
 }
 
 
