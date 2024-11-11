@@ -82,10 +82,10 @@ a{
 a:hover{
     color: yellow;
     text-decoration: none;
+    display: block;
 }
 body{
     background-color: black;
-    background-image: ;
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
