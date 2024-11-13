@@ -8,20 +8,58 @@
         body{
             margin: 0px;
             padding: 0px;
+            background-image: linear-gradient(to left, black , rgb(61, 61, 61));
+            font-family: sans-serif;
+            line-height: 3em;
+            
         }
         header{
-            text-align: center;
             border: 2px solid black;
+            color: white;
             margin-bottom: 50px;
+            background-image: url(imagens/Universo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 220px;
         }
         img{
-            float: right;
-            width: 50px;
-            height: 50px;
+            display: flex;
+            width: 500px;
+            height: 350px;
+            margin: 10px;
+            border-radius: 5px;
         }
         article{
             border: 2px solid rgba(26, 68, 182, 0.993);
             margin-bottom: 10px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        h1{
+            background-color: rgb(0, 0, 0);
+            z-index: 1;
+            text-align: center;
+            display: block;
+            margin: auto;
+            padding: 10px;
+            width: 200px;
+            margin-top: 50px;
+        }
+        h3{
+            color: white;
+            text-align: center;
+            text-decoration: underline;
+        }
+        h3:hover{
+            color: yellow;
+            text-decoration: none;
+        }
+        p{
+            color: rgba(255, 255, 255, 0.747);
+            text-indent: 2em;
+            margin: 10px;
+            width: 55vw;
+            font-size: 20px;
         }
     </style>
 </head>
@@ -30,9 +68,10 @@
         <h1>TITULO</h1>
     </header>
     <main>
+        <h3>O que são galáxias?</h3>
         <article>
-            <img src="imagens/icon.png" alt="">
-            <p><strong>aqui vai o texto sobre a imagem.</strong></p>
+            <img src="imagens/Universo.jpg" alt="">
+            <p><strong>As galáxias são verdadeiras ilhas cósmicas que povoam o vasto e misterioso Universo. Elas são os elementos fundamentais do cosmos, agrupando estrelas, planetas, gás interestelar, poeira cósmica e, possivelmente, vida. Vamos explorar o que são esses sistemas cósmicos, os diferentes tipos que existem, como elas se formam e muito mais.</strong></p>
         </article>
         <article>
             <img src="imagens/icon.png" alt="">
