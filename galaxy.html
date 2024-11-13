@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Galáxias</title>
+    <link rel="shortcut icon" href="imagens/trarararar.avif" type="image/x-icon">
     <style>
         body{
             margin: 0px;
             padding: 0px;
+            background-image: url(imagens/astro.jpg);
             background-image: linear-gradient(to left, black , rgb(61, 61, 61));
             font-family: sans-serif;
             line-height: 3em;
@@ -20,7 +22,7 @@
             background-image: url(imagens/Universo.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 220px;
+            height: 150px;
         }
         img{
             display: flex;
@@ -38,6 +40,7 @@
         }
         h1{
             background-color: rgb(0, 0, 0);
+            border-radius: 20px;
             z-index: 1;
             text-align: center;
             display: block;
@@ -62,6 +65,35 @@
             width: 55vw;
             font-size: 20px;
         }
+        ul li{
+            color: white;
+            text-decoration: underline;
+            font-weight: bolder;
+            padding-left: 20px;
+            text-transform: uppercase;
+            background-color: rgb(207, 0, 0);
+            margin-top: 40px;
+            padding: 10px;
+            border-radius: 10px;
+            display:inline-block;
+            margin-left: 10px;
+        }
+        ul a{
+            color: white;
+            
+        }
+        ul a:hover{
+            color: yellow;
+            text-decoration: none;
+        }
+        ul{
+            text-align: center;
+        }
+        li#vol{
+            background-color: black;
+        }
+        
+        
         @media (max-width: 768px) {
             body{
                 line-height: 1.5em;
@@ -69,28 +101,42 @@
             p{
                 width: 100vw;
             }
+            footer> a{
+                margin-left: 150px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>TITULO</h1>
+        <h1>TITLE</h1>
     </header>
     <main>
-        <h3>O que são galáxias?</h3>
+        <h3>What are galaxies and their types?</h3>
         <article>
-            <img src="imagens/Universo.jpg" alt="">
-            <p><strong>As galáxias são verdadeiras ilhas cósmicas que povoam o vasto e misterioso Universo. Elas são os elementos fundamentais do cosmos, agrupando estrelas, planetas, gás interestelar, poeira cósmica e, possivelmente, vida. Vamos explorar o que são esses sistemas cósmicos, os diferentes tipos que existem, como elas se formam e muito mais.</strong></p>
+            <img src="imagens/astro.jpg" width="450px" alt="">
+            <p><strong>Galaxies are true cosmic islands that populate the vast and mysterious Universe. They are the fundamental elements of the cosmos, grouping together stars, planets, interstellar gas, cosmic dust and, possibly, life. Let's explore what these cosmic systems are, the different types that exist, how they form and much more.</strong></p>
         </article>
+        <h3>spiral galaxy</h3>
         <article>
-            <img src="imagens/icon.png" alt="">
-            <p><strong>aqui vai o texto sobre a imagem.</strong></p>
+            <img src="imagens/galaxia espiral.avif" alt="">
+            <p><strong>Spiral galaxies are distorted collections of stars and gas that are often beautifully shaped and are composed of hot, young stars. Most of the galaxies that scientists have discovered so far are spiral galaxies, as opposed to the other two main categories of galaxy shapes—elliptical and irregular.</mark>. The Via Láctea – the galaxy that includes Earth and our solar system – is an example of a spiral galaxy.</strong></p>
         </article>
+        <h3>Elliptical galaxy</h3>
         <article>
-            <img src="imagens/icon.png" alt="">
-            <p><strong>aqui vai o texto sobre a imagem.</strong></p>
+            <img src="imagens/galaxia eliptica.png" alt="">
+            <p>Elliptical galaxies are a type of galaxy that are spherical or ellipsoidal in shape, and do not have a spiral structure. The vast majority of these galaxies have little gas, little dust and few young stars. In a more expressive way they look very similar to the nucleus and halo of spiral galaxies. Some are very elongated and others very flattened when viewed from Earth. Although they seem simple, it is believed that elliptical galaxies are the result of the complex union of two spiral galaxies.</p>
+        </article>
+        <h3>Irregular galaxies</h3>
+        <article>
+            <img src="imagens/galaxia irregular.jpg" alt="">
+            <p>As the name suggests, irregular galaxies do not have a defined shape that allows for a more detailed classification. They are very old formations, which appeared before elliptical and spiral galaxies. They are formed by dust and gases, and their irregular shape occurs due to the influence of the gravitational field of other galaxies located nearby. According to NASA, this type of galaxy was the most abundant at the beginning of the composition of the Universe and, as a result, those observed today are very old.</p>
         </article>
     </main>
     
+    <ul>
+        <li id="vol"><a href="index.html">BACK</a></li>
+        <li><a href="https://github.com/JhonatanDevJR" target="_blank">My Github</a></li>
+    </ul>
 </body>
 </html>

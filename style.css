@@ -48,7 +48,7 @@
 span#burguer{
     display: block;
     text-align: center;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     padding: 5px;
     color: white;
@@ -85,7 +85,7 @@ a:hover{
     display: block;
 }
 body{
-    background-color: black;
+    background-image: linear-gradient(to left, black , rgb(61, 61, 61));
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
@@ -101,6 +101,7 @@ p{
     line-height: 2em;
     padding-left: 10px;
     width: 700px;
+    
 }
 video {
     width: 300px;
@@ -235,6 +236,21 @@ h3{
     color: white;
     margin-top: 10px;
 }
+footer> a{
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-left: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(207, 0, 0);
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    font-family: sans-serif;
+}
+
 
 
 

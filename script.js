@@ -2,75 +2,74 @@ var img= document.getElementById('foto')
 var text1= document.getElementById('text1')
 var test= document.getElementById('teste')
 function entrou1(){
-    text1.innerHTML='<p>Mercúrio é o planeta mais próximo do Sol e o menor do Sistema Solar. É o primeiro planeta do Sistema Solar, a contar da proximidade com o Sol, distando-se em apenas 57,9 milhões de quilômetros da estrela. As primeiras observações com telescópio datam de 1610, e Galileu Galilei fez as primeiras constatações. Um dia em Mercúrio dura 59 dias na Terra. Um ano em Mercúrio dura 88 dias na Terra. A velocidade de rotação de Mercúrio pode atingir 180 mil km/hora.</p>'
+    text1.innerHTML=`<p>Mercury is the closest planet to the Sun and the smallest in the Solar System. It is the first planet in the Solar System, counting from the closest to the Sun, at a distance of only 57.9 million kilometers from the star. The first observations with a telescope date back to 1610, and Galileo Galilei made the first observations. A day on Mercury lasts 59 days on Earth. A year on Mercury lasts 88 days on Earth. Mercury's rotation speed can reach 180 thousand km/hour.</p>`
     document.getElementById("foto1").style.display='none';
 }
 function saiu1(){
-    text1.innerHTML='<h2>Passe a seta na imagem.</h2>'
-    
+    text1.innerHTML='<h2>click on the image.</h2>'
     document.getElementById("foto1").style.display ='block'; 
 } 
 
 function entrou2(){
-    text2.innerHTML=`<p>Vênus é um planeta rochoso do sistema solar, o segundo mais próximo do Sol, e é conhecido por ser o planeta irmão da Terra. Vênus é semelhante à Terra em termos de tamanho e massa, sendo apenas 650 km menor em diâmetro e 81,5% da massa da Terra. A atmosfera de Vênus é muito densa e composta por 96,5% de dióxido de carbono, o que dá ao planeta uma cor amarelada.</p>`
+    text2.innerHTML=`<p>Venus is a rocky planet in the solar system, the second closest to the Sun, and is known to be Earth's sister planet. Venus is similar to Earth in terms of size and mass, being only 650 km smaller in diameter and 81.5% of Earth's mass. Venus' atmosphere is very dense and composed of 96.5% carbon dioxide, which gives the planet a yellowish color.</p>`
     document.getElementById("foto2").style.display='none';
 }
 function saiu2(){
-    text2.innerHTML='<h2>Passe a seta na imagem.</h2>'
+    text2.innerHTML='<h2>click on the image.</h2>'
     document.getElementById("foto2").style.display ='block'; 
 } 
 
 function entrou3(){
-    text3.innerHTML=`<p>O Planeta Terra é um dos planetas que fazem parte do Sistema Solar e é o terceiro planeta mais próximo do Sol. A sua formação ocorreu há bilhões de anos, assim como a existência de vida aqui. Algumas teorias explicam sua origem, como a teoria da nebulosa solar.</p>`
+    text3.innerHTML=`<p>Planet Earth is one of the planets that make up the Solar System and is the third closest planet to the Sun. Its formation occurred billions of years ago, as did the existence of life here. Some theories explain its origin, such as the solar nebula theory.</p>`
     document.getElementById("foto3").style.display='none';
 }
 function saiu3(){
-    text3.innerHTML='<h2>Passe a seta na imagem.</h2>'
+    text3.innerHTML='<h2>click on the image.</h2>'
     document.getElementById("foto3").style.display ='block'; 
 } 
 
 function entrou4(){
-    text4.innerHTML=`<p>Marte é o quarto planeta do Sistema Solar, ficando entre a Terra e Júpiter. A 227 milhões de km do Sol, é um planeta formado por superfície rochosa e atmosfera rica em CO2. Representação de Marte, quarto planeta a partir do Sol. Em função de sua coloração, é chamado também de Planeta Vermelho. Possui o maior vulcão de todo o nosso sistema, uma superfície vermelha, e até estações como verão e inverno.</p>`
+    text4.innerHTML=`<p>Mars is the fourth planet in the Solar System, located between Earth and Jupiter. Located 227 million km from the Sun, it is a planet formed by a rocky surface and an atmosphere rich in CO2. Representation of Mars, the fourth planet from the Sun. Due to its color, it is also called the Red Planet. It has the largest volcano in our entire system, a red surface, and even seasons such as summer and winter.</p>`
     document.getElementById("foto4").style.display='none';
 }
 function saiu4(){
-    text4.innerHTML='<h2>Passe a seta na imagem.</h2>'
+    text4.innerHTML='<h2>click on the image.</h2>'
     document.getElementById("foto4").style.display ='block'; 
 } 
 
 function entrou5(){
-    text5.innerHTML=`<p>Júpiter é um gigante gasoso e o maior planeta do Sistema Solar. Júpiter é o quinto planeta do Sistema Solar a partir do Sol. Trata-se de um gigante gasoso que apresenta superfície formada pelos gases hélio e hidrogênio, em sua maioria, com uma ampla atmosfera e um núcleo sólido ou pastoso em seu interior.</p>`
+    text5.innerHTML=`<p>Jupiter is a gas giant and the largest planet in the Solar System. Jupiter is the fifth planet in the Solar System from the Sun. It is a gas giant with a surface formed mostly by helium and hydrogen gases, with a large atmosphere and a solid or pasty core inside.</p>`
     document.getElementById("foto5").style.display='none';
 }
 function saiu5(){
-    text5.innerHTML='<h2>Passe a seta na imagem.</h2>'
+    text5.innerHTML='<h2>click on the image.</h2>'
     document.getElementById("foto5").style.display ='block'; 
 } 
 
 function entrou6(){
-    text6.innerHTML=`<p>Saturno é um planeta gasoso do Sistema Solar, o segundo maior e o sexto mais distante do Sol. É conhecido por seus anéis, que são visíveis da Terra. É o planeta com mais luas do Sistema Solar, com 146 Tem uma superfície com tons amarelados, marrons e brancos. É composto principalmente por hidrogênio e hélio, mas também contém amônia e água congelada.</p>`
+    text6.innerHTML=`<p>Saturn is a gaseous planet in the Solar System, the second largest and the sixth most distant from the Sun. It is known for its rings, which are visible from Earth. It is the planet with the most moons in the Solar System, with 146. It has a surface with yellowish, brown and white tones. It is composed mainly of hydrogen and helium, but also contains ammonia and frozen water.</p>`
     document.getElementById("foto6").style.display='none';
 }
 function saiu6(){
-    text6.innerHTML='<h2>Passe a seta na imagem.</h2>'
+    text6.innerHTML='<h2>click on the image.</h2>'
     document.getElementById("foto6").style.display ='block'; 
 } 
 
 function entrou7(){
-    text7.innerHTML=`<p>Urano é um planeta gasoso do Sistema Solar, o terceiro maior e o quarto mais massivo. É o planeta mais frio do Sistema Solar, com temperaturas que podem chegar a -224°C. Tem uma coloração azul clara, devido à presença de metano em sua atmosfera. É conhecido como o "planeta inclinado" porque sua rotação é no sentido contrário aos demais planetas, com uma inclinação de 98° em relação ao plano de sua órbita. </p>`
+    text7.innerHTML=`<p>Uranus is a gaseous planet in the Solar System, the third largest and fourth most massive. It is the coldest planet in the Solar System, with temperatures that can reach -224°C. It has a light blue coloration, due to the presence of methane in its atmosphere. It is known as the "tilted planet" because its rotation is in the opposite direction to the other planets, with an inclination of 98° in relation to the plane of its orbit.</p>`
     document.getElementById("foto7").style.display='none';
 }
 function saiu7(){
-    text7.innerHTML='<h2>Passe a seta na imagem.</h2>'
+    text7.innerHTML='<h2>click on the image.</h2>'
     document.getElementById("foto7").style.display ='block'; 
 } 
 
 function entrou8(){
-    text8.innerHTML=`<p>Netuno é um planeta gasoso pertencente ao Sistema Solar classificado como um gigante de gelo. Trata-se do oitavo planeta a partir do Sol, sendo, portanto, o planeta mais distante do Sol. Em decorrência disso, o tempo que Netuno leva para dar uma volta completa em torno dessa estrela é muito grande: 165 anos.</p>`
+    text8.innerHTML=`<p>Neptune is a gaseous planet in the Solar System that is classified as an ice giant. It is the eighth planet from the Sun, and is therefore the most distant planet from the Sun. As a result, the time it takes Neptune to complete a full orbit around this star is very long: 165 years.</p>`
     document.getElementById("foto8").style.display='none';
 }
 function saiu8(){
-    text8.innerHTML='<h2>Passe a seta na imagem.</h2>'
+    text8.innerHTML='<h2>click on the image.</h2>'
     document.getElementById("foto8").style.display ='block'; 
 } 
 function menu() {
