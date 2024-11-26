@@ -6,29 +6,17 @@
 #titulo{
     font-size: 1.5em;
 }
-#text1 p#mercury, #text2 p#venus, #text3 p#earth,#text4 p#marte, #text5 p#jupiter, #text6 p#saturn, #text7 p#uranus, #text8 p#neptune{
-    text-align: center;
-    display: flex;
-    
-}
+
 img{
-    left: 500px;
-    align-items: center;
     display: flex;
-    flex-flow: row wrap;
+    min-width: 280px;
+    max-width: 500px;
+    height: 280px;
 }
-div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
-    height: 300px;
-    display: flex;
-}
-h2{
-    color: white;
-    text-align: center;
-    margin-left: -100px;
-    display: block;
-}
-h3{
-    display: none;
+p{
+    color: rgba(255, 255, 255, 0.712);
+    width: 55vw;
+    margin: 10px;
 }
 span#burguer{
     display: none;
@@ -42,4 +30,7 @@ menu ul li{
 }
 footer> a{
     margin-left: 540px;
+}
+footer{
+    margin-bottom: 100px;
 }

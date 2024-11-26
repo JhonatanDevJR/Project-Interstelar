@@ -92,149 +92,30 @@ body{
 }
 p{
     font-family: sans-serif;
-    background-color: rgb(145, 54, 54);
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px rgba(241, 241, 241, 0.733);
-    margin:  10px;
-    text-transform: uppercase;
     text-indent: 1.5em;
-    line-height: 2em;
-    padding-left: 10px;
-    width: 700px;
-    
+    font-size: 20px;
+    margin: 10px;
 }
 video {
     width: 300px;
     height: 300px;
     display: flex;
 }
-#text1 p#mercury{
-    z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    left: 10px;
-    font-weight: bolder;
-    margin: auto;
-}
-#text2 p#venus{
-    z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: rgb(255, 255, 255);
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    display: flex;
-    font-weight: bolder;
-}
-#text3 p#earth{
-    z-index: 1;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: rgb(255, 255, 255);
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    font-weight: bolder;
-    display: flex;
-    
-}
-#text4 p#marte{
-    z-index: 1;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    left: 10px;
-    font-weight: bolder;
-    
-}
-#text5 p#jupiter{
-    z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    left: 10px;
-    font-weight: bolder;
-}
-
-#text6 p#saturn{
-    z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    left: 10px;
-    font-weight: bolder;
-}
-
-#text7 p#uranus{
-    z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    left: 10px;
-    font-weight: bolder;
-}
-#text8 p#neptune{
-    z-index: 1;
-    top: 50px;
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
-    text-indent: 1.5em;
-    width: 350px;
-    line-height: 2em;
-    left: 10px;
-    font-weight: bolder;
-}
 img{
-    width:200px; 
-    float: left;
-    position:  relative;
+    width:350px; 
     display: flex;
-    flex-flow: row wrap;
-    margin-top: 20px;
     cursor: pointer;
-    text-align: center;
-    position: center;
-    left: 40px;
 }
-
-div#text1,div#text2,div#text3,div#text4,div#text5,div#text6,div#text7,div#text8{
+div{
     display: flex;
-    color: white;
-    height: 500px;
+    color: rgba(255, 255, 255, 0.74);
+    flex-flow: row wrap;
+    border: 2px solid rgba(26, 68, 182, 0.993);
+    margin: 5px;
+    
 }
-
-h2{
-    color: white;
-    text-align: center;
-    margin-left: -100px;
-    display: none;
-}
-h3{
-    color: white;
-    margin-top: 10px;
+div#titulo{
+    border: none;
 }
 footer> a{
     color: white;
@@ -249,6 +130,14 @@ footer> a{
     border-radius: 10px;
     position: absolute;
     font-family: sans-serif;
+    
+}
+h1.title{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-decoration: underline;
 }
 
 
